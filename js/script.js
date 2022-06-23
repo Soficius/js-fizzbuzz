@@ -9,11 +9,11 @@ for (let i = 1; i<=100; i++){
     } else if(i % 3 == 0){
         console.log('Fizz');
 
-// 8. controllo se la varibiale i è multiplo di 5
+// 4. controllo se la varibiale i è multiplo di 5
     } else if( i % 5 == 0){
         console.log('Buzz');
 
-// 10. se i controlli precedenti sono falsi stampo i
+// 5. se i controlli precedenti sono falsi stampo i
     } else {
         console.log(i);
     }
