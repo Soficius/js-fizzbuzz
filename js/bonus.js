@@ -15,22 +15,18 @@ for (let i = 1; i<=100; i++){
 
 // 5. valorizzo il nuovo elemento precedentemente dichiaro
         newEl.innerText = 'FizzBuzz'
-        console.log("FizzBuzz");
 // 6. controllo se la variabile i è multiplo di 3
     } else if(i % 3 == 0){
 // 7. valorizzo il nuovo elemento precedentemente dichiaro
         newEl.innerText = 'Fizz'
-        console.log('Fizz');
 // 8. controllo se la varibiale i è multiplo di 5
     } else if( i % 5 == 0){
 
 // 9. valorizzo il nuovo elemento precedentemente dichiaro
         newEl.innerText = 'Buzz'
-        console.log('Buzz');
 // 10. se i controlli precedenti sono falsi valorizzo il nuovo elemento con la variabile i
     } else {
         newEl.innerText = i 
-        console.log(i);
     }
 // 11.aggiungo il nuovo elemento al container
     row.append(newEl)
