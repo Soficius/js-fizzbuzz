@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+
+#container{
+    min-height: 1200px;
+}
+.min-h{
+    min-height: 500px;
+}
+.text-c-yellow{
+color: burlywood
+}
+.b-color{
+    background-color: #efebe9;
+}

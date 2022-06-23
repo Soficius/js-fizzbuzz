@@ -1,7 +1,7 @@
 // 1. creo la costante container prendendo l'elemento con id container per stampare in pagina
 const container = document.getElementById('container');
 const row = document.createElement('div')
-row.className = 'row'
+row.className = 'row min-h'
 container.append(row)
 // 2. creo il ciclo per stampare in console i numeri da 1 a 100 e per creare gli elementi da aggiungere al container.
 for (let i = 1; i<=100; i++){
@@ -9,7 +9,7 @@ for (let i = 1; i<=100; i++){
     const newEl = document.createElement('div')
 
 //* aggiungo la classe flex al nuovo elemento creato
-    newEl.className = 'col'
+    newEl.className = 'col border border-5 p-4 m-4 text-center rounded-circle b-color'
 // 4. controllo se la variabile i sia multiplo sia di 3 che di 5
     if(i % 3 == 0 && i % 5 == 0){
 
